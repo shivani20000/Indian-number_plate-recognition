@@ -206,7 +206,7 @@ var ch = document.getElementById("k8s1").value
 var xhr = new XMLHttpRequest()
 
 
-xhr.open("POST", "http://192.168.43.203/cgi-bin/car.py?ch=" + ch ,true);
+xhr.open("POST", "http://<ip>/cgi-bin/car.py?ch=" + ch ,true);
 xhr.send();
 
 xhr.onload = function() {
@@ -218,7 +218,7 @@ xhr.onload = function() {
 
     <div class="container">
         <div class="contain">
-            <form action="http://192.168.43.203/cgi-bin/car.py" method="POST"   >
+            <form action="http://<ip>/cgi-bin/car.py" method="POST"   >
         <img src="car.gif" alt="redhat" size="50">
         <h1 >......WELCOME......</h1>
         <h2>Number Plate Information Website</h2>
