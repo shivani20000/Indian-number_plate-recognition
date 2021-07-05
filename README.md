@@ -8,3 +8,7 @@
 👉Create a Web portal where all this information will be displayed (using html,css,and js)
 
 
+Indian-number_plate_recognition.ipynb:- This file contains the whole code of traning and testing the CNN model for Indian Number plate detection system
+
+
+
