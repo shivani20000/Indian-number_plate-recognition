@@ -10,5 +10,7 @@
 
 Indian-number_plate_recognition.ipynb:- This file contains the whole code of traning and testing the CNN model for Indian Number plate detection system
 
-
+car-info_webapp:- This folder consists of two files------->
+car.html :- frontend code of website
+car.py:- backend code of website
 
